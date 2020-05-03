@@ -8,3 +8,11 @@ if __name__ == "__main__":
 
     print(user1)  # <__main__.User object at 0x0000016ECE2F7400>
     print(user1.name)  # Bob
+
+    user2 = User("Tom")
+    print(user2)
+    print(user2.name)
+
+    user3 = User("Ken")
+    print(user3)
+    print(user3.name)
