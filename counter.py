@@ -17,25 +17,28 @@ class Counter:
     def __init__(self, value):
         self.value = value
 
-    def increase(self, value):
+    def increase(self):
         self.value += 1
+
+    def increase3(self):
+        self.value += 3
 
 
 if __name__ == "__main__":
     counter_1 = Counter(0)
     print(counter_1.value)
 
-    counter_1.increase(1)
+    counter_1.increase()
     print(counter_1.value)
 
-    counter_1.increase(2)
+    counter_1.increase()
     print(counter_1.value)
 
     counter_2 = Counter(15)
     print(counter_2.value)
 
-    counter_2.increase(16)
+    counter_2.increase3()
     print(counter_2.value)
 
-    counter_2.increase(17)
+    counter_2.increase3()
     print(counter_2.value)
