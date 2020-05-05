@@ -17,10 +17,12 @@ if __name__ == "__main__":
     Bob.display_profil()
     Bob.change_nationality("China")
     Bob.display_profil()
+
     Tom = User("Tom", 57, "USA")
     Tom.display_profil()
     Tom.change_nationality("UK")
     Tom.display_profil()
+
     Ken = User("Ken", 49, "Japan")
     Ken.display_profil()
     Ken.change_nationality("Korea")
